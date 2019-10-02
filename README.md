@@ -19,7 +19,7 @@ I've put in error catches for absolutely everything that could go wrong with thi
 
 ## Usage
 
-_The prefix_ `/` _is only used as an example. The prefix can be set to whatever you want in the_ `config.json` _file._
+_The prefix `/` is only used as an example. The prefix can be set to whatever you want in the `config.json` file._
 
 ### Mute Command
 
@@ -33,3 +33,16 @@ For <time>, use a number followed by s, m, h, or d
 Example: 10s, 2h, 1d, etc
 ```
 Permission requirement: _Manage Messages_
+
+### Purge Command
+
+Use this command to bulk delete messages from a channel, with ability to limit it to bot messages, user messages, or a specific user
+
+**Usage:**
+```
+/purge <number>
+/purge <number> bot
+/purge <number> user
+/purge <number> @mention
+```
+Permission requrement: _Manage Messages_
