@@ -19,7 +19,8 @@ I've put in error catches for absolutely everything that could go wrong with thi
 
 ## Usage
 
-**Mute Command:**  
+### Mute Command
+  
 Use this command to mute a user  
 **Usage:**
 ```
