@@ -28,6 +28,7 @@ For <time>, use a number followed by s, m, h, or d
 Example: 10s, 2h, 1d, etc
 ```
 Permission requirement: _Manage Messages_
+***
 ### Purge Command
 _Use this command to delete multiple messages from a channel at once_
 
@@ -41,6 +42,7 @@ Deletes the most recent messages by default, but you can use additional command 
 /purge <number> @mention
 ```
 Permission requrement: _Manage Messages_
+***
 ### Unmute Command
 _Use this command to unmute a user_
 
@@ -51,6 +53,7 @@ Removes the user from the database of muted users, allowing them to speak freely
 /unmute <@mention>
 ```
 Permission requirement: _Manage Messages_
+***
 ### Warn Command
 _Use this command to warn a user for bad behavior_
 
