@@ -1,10 +1,8 @@
 ### Request
-"Hey cheeseits a need a new bot whenever your ready:
-
-:mute USERNAME (timelimit in s, m, h, d)  
-:purge (number) (purges the messages)  
-:warn (username)
-
+"Hey cheeseits a need a new bot whenever your ready:  
+`:mute USERNAME (timelimit in s, m, h, d)`  
+`:purge (number) (purges the messages)`  
+`:warn (username)`  
 Can you also make it so it DM's the person when they got muted or warned"
 
 ### How to Use
