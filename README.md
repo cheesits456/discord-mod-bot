@@ -19,12 +19,12 @@ I've put in error catches for absolutely everything that could go wrong with thi
 
 ## Usage
 _The prefix `/` is only used as an example. The prefix can be set to whatever you want in the `config.json` file._
----
 
+---
 ### Mute Command
 _Use this command to mute a user_
 
-Effectively blocks a user from being able to chat by deleting that user's messages as soon as they are sent, up until either the timer expires or a staff member uses the `unmute` command
+Effectively blocks a user from being able to chat by deleting that user's messages as soon as they are sent, up until either the timer expires or a staff member uses the `unmute` command. Users are notified that they have been muted via Direct Message, unless they haven't allowed the bot permission to DM them.
 
 **Usage:**
 ```
@@ -36,10 +36,10 @@ Example: 10s, 2h, 1d, etc
 Permission requirement: _Manage Messages_
 
 ---
-
 ### Purge Command
+_Use this command to delete multiple messages from a channel at once_
 
-Use this command to bulk delete messages from a channel, with ability to limit it to bot messages, user messages, or a specific user
+Deletes the most recent messages by default, but you can use additional command arguments to limit it to bot messages, user messages, or messages from one specific user.
 
 **Usage:**
 ```
@@ -51,10 +51,10 @@ Use this command to bulk delete messages from a channel, with ability to limit i
 Permission requrement: _Manage Messages_
 
 ---
-
 ### Unmute Command
+_Use this command to unmute a user_
 
-Use this command to unmute a user
+Removes the user from the database of muted users, allowing them to speak freely again.
 
 **Usage:**
 ```
@@ -63,10 +63,10 @@ Use this command to unmute a user
 Permission requirement: _Manage Messages_
 
 ---
-
 ### Warn Command
+_Use this command to warn a user for bad behavior_
 
-Use this command to warn a user for bad behavior
+Sends a message to the Warn Channel (set in `config.json`) stating the user warned and the reason for it. Unless permissions are revoked, the bot will also send a Direct Message to the warned user stating what they have been warned for.
 
 **Usage:**
 ```
