@@ -21,9 +21,12 @@ I've put in error catches for absolutely everything that could go wrong with thi
 
 _The prefix `/` is only used as an example. The prefix can be set to whatever you want in the `config.json` file._
 
+---
+
 ### Mute Command
 
-Use this command to mute a user
+Use this command to mute a user  
+Effectively blocks a user from being able to chat by deleting that user's messages as soon as they are sent, up until either the timer expires or a staff member uses the `unmute` command
 
 **Usage:**
 ```
@@ -48,3 +51,27 @@ Use this command to bulk delete messages from a channel, with ability to limit i
 /purge <number> @mention
 ```
 Permission requrement: _Manage Messages_
+
+---
+
+### Unmute Command
+
+Use this command to unmute a user
+
+**Usage:**
+```
+/unmute <@mention>
+```
+Permission requirement: _Manage Messages_
+
+---
+
+### Warn Command
+
+Use this command to warn a user for bad behavior
+
+**Usage:**
+```
+/warn <@mention> <reason>
+```
+Permission requirement: _Manage Messages_
