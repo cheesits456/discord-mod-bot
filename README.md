@@ -34,6 +34,8 @@ Example: 10s, 2h, 1d, etc
 ```
 Permission requirement: _Manage Messages_
 
+---
+
 ### Purge Command
 
 Use this command to bulk delete messages from a channel, with ability to limit it to bot messages, user messages, or a specific user
