@@ -22,10 +22,8 @@ I've put in error catches for absolutely everything that could go wrong with thi
 **Mute Command:**  
 Use this command to mute a user  
 **Usage:**
-```
-/mute <@mention> <time>
+```/mute <@mention> <time>
 
 For <time>, use a number followed by s, m, h, or d
-Example: 10s, 2h, 1d, etc
-```
+Example: 10s, 2h, 1d, etc```
 Permission requirement: _Manage Messages_
