@@ -66,7 +66,7 @@ Permission requirement: _Manage Messages_
 ### Warn Command
 _Use this command to warn a user for bad behavior_
 
-Sends a message to the Warn Channel (set in `config.json`) stating the user warned and the reason for it. Unless permissions are revoked, the bot will also send a Direct Message to the warned user stating what they have been warned for.
+Sends a message to the Warn Channel (set in `config.json`) stating the user warned and the reason for it. Unless permission is denied by the warned user, the bot will also send a Direct Message to them stating what they have been warned for.
 
 **Usage:**
 ```
