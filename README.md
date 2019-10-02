@@ -19,6 +19,8 @@ I've put in error catches for absolutely everything that could go wrong with thi
 
 ## Usage
 
+_The prefix_ `/` _is only used as an example. The prefix can be set to whatever you want in the_ `config.json` _file._
+
 ### Mute Command
 
 Use this command to mute a user
