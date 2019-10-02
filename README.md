@@ -1,11 +1,11 @@
-## Request
+# Request
 "Hey cheeseits a need a new bot whenever your ready:  
 `:mute USERNAME (timelimit in s, m, h, d)`  
 `:purge (number) (purges the messages)`  
 `:warn (username)`  
 Can you also make it so it DM's the person when they got muted or warned"
 
-## Setup
+# Setup
 
 ### How to Run
 - Create a new Discord bot
@@ -17,7 +17,7 @@ Can you also make it so it DM's the person when they got muted or warned"
 ### Additional Information
 I've put in error catches for absolutely everything that could go wrong with this script as far as user error is concerned, so instead of getting a confusing wall of "error text" in the console, it'll give you simple instructions for how to fix what's not working. Due to the error catching, you could technically skip all of the steps in the `How to Use` section and simply run `run.bat`, then go through and fix the errors one at a time. This code was written with user-friendliness in mind.
 
-## Usage
+# Usage
 _The prefix `/` is only used as an example. The prefix can be set to whatever you want in the `config.json` file._
 
 ---
