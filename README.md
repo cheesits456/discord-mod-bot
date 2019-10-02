@@ -11,7 +11,7 @@ Can you also make it so it DM's the person when they got muted or warned"
 - Open `config.json` and fill in the information
 - Run `run.bat` to run the bot (on the first run it will install required packages)
 ### Additional Information
-I've put in error catches for absolutely everything that could go wrong with this script as far as user error is concerned, so instead of getting a confusing wall of "error text" in the console, it'll give you simple instructions for how to fix what's not working. Due to the error catching, you could technically skip all of the steps in the `How to Use` section and simply run `run.bat`, then go through and fix the errors one at a time. This code was written with user-friendliness in mind.
+I've put in error catches for absolutely everything that could go wrong with this script as far as user error is concerned, so instead of getting a confusing wall of "error text" in the console, it'll give you simple instructions for how to fix what's not working. Due to the error catching, you could technically skip all of the steps in the `How to Run` section and simply run `run.bat`, then go through and fix the errors one at a time. This code was written with user-friendliness in mind.
 # Usage
 _The prefix `/` is only used as an example. The prefix can be set to whatever you want in the `config.json` file._
 ### Mute Command
