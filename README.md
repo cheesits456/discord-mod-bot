@@ -24,8 +24,8 @@ _The prefix `/` is only used as an example. The prefix can be set to whatever yo
 ---
 
 ### Mute Command
+_Use this command to mute a user_
 
-Use this command to mute a user  
 Effectively blocks a user from being able to chat by deleting that user's messages as soon as they are sent, up until either the timer expires or a staff member uses the `unmute` command
 
 **Usage:**
