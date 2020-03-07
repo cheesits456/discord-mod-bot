@@ -7,5 +7,5 @@ while [ true ]
 do
 	echo "Starting bot..."
 	node ./bot.js
-	sleep 2
+	sleep 5
 done
